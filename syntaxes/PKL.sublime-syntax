@@ -72,7 +72,7 @@ contexts:
 
 
   number:
-    - match: (?:(?:[-]?)(?:[0-9e]*)(?:\.{1}){1}(?:[0-9]+))
+    - match: (?:(?:[-]?)(?:[0-9e]*)(?:\.{1}){1}(?:[0-9e]+))
       scope: constant.numeric.float.decimal.pkl
     - match: \b(?:0[xXbBoO])(?:[_0-9a-fA-F]+)
       scope: constant.numeric.hex.pkl
